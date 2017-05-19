@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickPre(View view) {
-//        multiTouchView.pre();
+        multiTouchView.pre();
     }
 
     public void clickNext(View view) {
-//        multiTouchView.next();
+        multiTouchView.next();
     }
 }
