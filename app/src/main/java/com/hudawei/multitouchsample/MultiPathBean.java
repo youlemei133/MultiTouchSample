@@ -28,6 +28,7 @@ public class MultiPathBean {
         PathsBean lastPathsBean = getLastPathsBean();
         if (lastPathsBean != null) {
             lastPathsBean.mPaths.add(path);
+            mLayerIndex = mPathsBeanList.size() - 1;
         }
     }
 
